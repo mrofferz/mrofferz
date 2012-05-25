@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainMaster.master" AutoEventWireup="true"
+﻿hamada
+<%@ Page Title="" Language="C#" MasterPageFile="~/MainMaster.master" AutoEventWireup="true"
     CodeFile="BrandDetails.aspx.cs" Inherits="BrandDetails" %>
 
 <%@ Register Src="UserModulesControls/BrandViewDetailsCtrl.ascx" TagName="BrandViewDetailsCtrl"
