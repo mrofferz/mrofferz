@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BrandAdd" xml:space="preserve">
+    <value>BrandAdd</value>
+  </data>
+  <data name="BrandDelete" xml:space="preserve">
+    <value>BrandDelete</value>
+  </data>
+  <data name="BrandSelectAll" xml:space="preserve">
+    <value>BrandSelectAll</value>
+  </data>
+  <data name="BrandSelectByID" xml:space="preserve">
+    <value>BrandSelectByID</value>
+  </data>
+  <data name="BrandUpdate" xml:space="preserve">
+    <value>BrandUpdate</value>
+  </data>
+  <data name="CategoryAdd" xml:space="preserve">
+    <value>CategoryAdd</value>
+  </data>
+  <data name="CategoryDelete" xml:space="preserve">
+    <value>CategoryDelete</value>
+  </data>
+  <data name="CategorySelectAll" xml:space="preserve">
+    <value>CategorySelectAll</value>
+  </data>
+  <data name="CategorySelectBase" xml:space="preserve">
+    <value>CategorySelectBase</value>
+  </data>
+  <data name="CategorySelectByID" xml:space="preserve">
+    <value>CategorySelectByID</value>
+  </data>
+  <data name="CategorySelectByOfferAbility" xml:space="preserve">
+    <value>CategorySelectByOfferAbility</value>
+  </data>
+  <data name="CategorySelectByParentID" xml:space="preserve">
+    <value>CategorySelectByParentID</value>
+  </data>
+  <data name="CategoryUpdate" xml:space="preserve">
+    <value>CategoryUpdate</value>
+  </data>
+  <data name="ContactUsAdd" xml:space="preserve">
+    <value>ContactUsAdd</value>
+  </data>
+  <data name="ContactUsClose" xml:space="preserve">
+    <value>ContactUsClose</value>
+  </data>
+  <data name="ContactUsDelete" xml:space="preserve">
+    <value>ContactUsDelete</value>
+  </data>
+  <data name="ContactUsReply" xml:space="preserve">
+    <value>ContactUsReply</value>
+  </data>
+  <data name="ContactUsSelectAll" xml:space="preserve">
+    <value>ContactUsSelectAll</value>
+  </data>
+  <data name="ContactUsSelectByID" xml:space="preserve">
+    <value>ContactUsSelectByID</value>
+  </data>
+  <data name="ContactUsSelectClosed" xml:space="preserve">
+    <value>ContactUsSelectClosed</value>
+  </data>
+  <data name="ContactUsSelectNew" xml:space="preserve">
+    <value>ContactUsSelectNew</value>
+  </data>
+  <data name="ContactUsSelectReplied" xml:space="preserve">
+    <value>ContactUsSelectReplied</value>
+  </data>
+  <data name="CurrencyAdd" xml:space="preserve">
+    <value>CurrencyAdd</value>
+  </data>
+  <data name="CurrencyDelete" xml:space="preserve">
+    <value>CurrencyDelete</value>
+  </data>
+  <data name="CurrencySelectAll" xml:space="preserve">
+    <value>CurrencySelectAll</value>
+  </data>
+  <data name="CurrencySelectByID" xml:space="preserve">
+    <value>CurrencySelectByID</value>
+  </data>
+  <data name="CurrencyUpdate" xml:space="preserve">
+    <value>CurrencyUpdate</value>
+  </data>
+  <data name="FairActivate" xml:space="preserve">
+    <value>FairActivate</value>
+  </data>
+  <data name="FairAdd" xml:space="preserve">
+    <value>FairAdd</value>
+  </data>
+  <data name="FairCategoryAdd" xml:space="preserve">
+    <value>FairCategoryAdd</value>
+  </data>
+  <data name="FairCategoryDelete" xml:space="preserve">
+    <value>FairCategoryDelete</value>
+  </data>
+  <data name="FairDeactivate" xml:space="preserve">
+    <value>FairDeactivate</value>
+  </data>
+  <data name="FairDelete" xml:space="preserve">
+    <value>FairDelete</value>
+  </data>
+  <data name="FairLike" xml:space="preserve">
+    <value>FairLike</value>
+  </data>
+  <data name="FairRate" xml:space="preserve">
+    <value>FairRate</value>
+  </data>
+  <data name="FairSelectAll" xml:space="preserve">
+    <value>FairSelectAll</value>
+  </data>
+  <data name="FairSelectByCatID" xml:space="preserve">
+    <value>FairSelectByCatID</value>
+  </data>
+  <data name="FairSelectByID" xml:space="preserve">
+    <value>FairSelectByID</value>
+  </data>
+  <data name="FairSelectByLocationID" xml:space="preserve">
+    <value>FairSelectByLocationID</value>
+  </data>
+  <data name="FairUpdate" xml:space="preserve">
+    <value>FairUpdate</value>
+  </data>
+  <data name="LocationAdd" xml:space="preserve">
+    <value>LocationAdd</value>
+  </data>
+  <data name="LocationDelete" xml:space="preserve">
+    <value>LocationDelete</value>
+  </data>
+  <data name="LocationSelectAll" xml:space="preserve">
+    <value>LocationSelectAll</value>
+  </data>
+  <data name="LocationSelectByID" xml:space="preserve">
+    <value>LocationSelectByID</value>
+  </data>
+  <data name="LocationUpdate" xml:space="preserve">
+    <value>LocationUpdate</value>
+  </data>
+  <data name="OfferActivate" xml:space="preserve">
+    <value>OfferActivate</value>
+  </data>
+  <data name="OfferAdd" xml:space="preserve">
+    <value>OfferAdd</value>
+  </data>
+  <data name="OfferBranchAdd" xml:space="preserve">
+    <value>OfferBranchAdd</value>
+  </data>
+  <data name="OfferBranchDelete" xml:space="preserve">
+    <value>OfferBranchDelete</value>
+  </data>
+  <data name="OfferDeactivate" xml:space="preserve">
+    <value>OfferDeactivate</value>
+  </data>
+  <data name="OfferDelete" xml:space="preserve">
+    <value>OfferDelete</value>
+  </data>
+  <data name="OfferLike" xml:space="preserve">
+    <value>OfferLike</value>
+  </data>
+  <data name="OfferRate" xml:space="preserve">
+    <value>OfferRate</value>
+  </data>
+  <data name="OfferSelectAll" xml:space="preserve">
+    <value>OfferSelectAll</value>
+  </data>
+  <data name="OfferSelectBestDeal" xml:space="preserve">
+    <value>OfferSelectBestDeal</value>
+  </data>
+  <data name="OfferSelectByBrandID" xml:space="preserve">
+    <value>OfferSelectByBrandID</value>
+  </data>
+  <data name="OfferSelectByCatID" xml:space="preserve">
+    <value>OfferSelectByCatID</value>
+  </data>
+  <data name="OfferSelectByCatIDBrandID" xml:space="preserve">
+    <value>OfferSelectByCatIDBrandID</value>
+  </data>
+  <data name="OfferSelectByCatIDSuppID" xml:space="preserve">
+    <value>OfferSelectByCatIDSuppID</value>
+  </data>
+  <data name="OfferSelectByCatIDSuppIDBrandID" xml:space="preserve">
+    <value>OfferSelectByCatIDSuppIDBrandID</value>
+  </data>
+  <data name="OfferSelectByID" xml:space="preserve">
+    <value>OfferSelectByID</value>
+  </data>
+  <data name="OfferSelectBySuppID" xml:space="preserve">
+    <value>OfferSelectBySuppID</value>
+  </data>
+  <data name="OfferSelectBySuppIDBrandID" xml:space="preserve">
+    <value>OfferSelectBySuppIDBrandID</value>
+  </data>
+  <data name="OfferSelectFeatured" xml:space="preserve">
+    <value>OfferSelectFeatured</value>
+  </data>
+  <data name="OfferSelectMostLiked" xml:space="preserve">
+    <value>OfferSelectMostLiked</value>
+  </data>
+  <data name="OfferSelectMostViewed" xml:space="preserve">
+    <value>OfferSelectMostViewed</value>
+  </data>
+  <data name="OfferSelectNewPackage" xml:space="preserve">
+    <value>OfferSelectNewPackage</value>
+  </data>
+  <data name="OfferSelectNewProduct" xml:space="preserve">
+    <value>OfferSelectNewProduct</value>
+  </data>
+  <data name="OfferSelectNewSale" xml:space="preserve">
+    <value>OfferSelectNewSale</value>
+  </data>
+  <data name="OfferSelectTopRated" xml:space="preserve">
+    <value>OfferSelectTopRated</value>
+  </data>
+  <data name="OfferSetBest" xml:space="preserve">
+    <value>OfferSetBest</value>
+  </data>
+  <data name="OfferSetFeatured" xml:space="preserve">
+    <value>OfferSetFeatured</value>
+  </data>
+  <data name="OfferSimpleSearch" xml:space="preserve">
+    <value>OfferSimpleSearch</value>
+  </data>
+  <data name="OfferSimpleSearchByCat" xml:space="preserve">
+    <value>OfferSimpleSearchByCat</value>
+  </data>
+  <data name="OfferUpdate" xml:space="preserve">
+    <value>OfferUpdate</value>
+  </data>
+  <data name="OfferView" xml:space="preserve">
+    <value>OfferView</value>
+  </data>
+  <data name="PollAdd" xml:space="preserve">
+    <value>PollAdd</value>
+  </data>
+  <data name="PollArchive" xml:space="preserve">
+    <value>PollArchive</value>
+  </data>
+  <data name="PollDelete" xml:space="preserve">
+    <value>PollDelete</value>
+  </data>
+  <data name="PollOptionAdd" xml:space="preserve">
+    <value>PollOptionAdd</value>
+  </data>
+  <data name="PollOptionDelete" xml:space="preserve">
+    <value>PollOptionDelete</value>
+  </data>
+  <data name="PollOptionDeleteByPollID" xml:space="preserve">
+    <value>PollOptionDeleteByPollID</value>
+  </data>
+  <data name="PollOptionSelectByID" xml:space="preserve">
+    <value>PollOptionSelectByID</value>
+  </data>
+  <data name="PollOptionSelectByPollID" xml:space="preserve">
+    <value>PollOptionSelectByPollID</value>
+  </data>
+  <data name="PollOptionUpdate" xml:space="preserve">
+    <value>PollOptionUpdate</value>
+  </data>
+  <data name="PollSelectAll" xml:space="preserve">
+    <value>PollSelectAll</value>
+  </data>
+  <data name="PollSelectArchived" xml:space="preserve">
+    <value>PollSelectArchived</value>
+  </data>
+  <data name="PollSelectByID" xml:space="preserve">
+    <value>PollSelectByID</value>
+  </data>
+  <data name="PollSelectCurrent" xml:space="preserve">
+    <value>PollSelectCurrent</value>
+  </data>
+  <data name="PollSelectNew" xml:space="preserve">
+    <value>PollSelectNew</value>
+  </data>
+  <data name="PollSetCurrent" xml:space="preserve">
+    <value>PollSetCurrent</value>
+  </data>
+  <data name="PollUpdate" xml:space="preserve">
+    <value>PollUpdate</value>
+  </data>
+  <data name="PollVote" xml:space="preserve">
+    <value>PollVote</value>
+  </data>
+  <data name="SupplierActivate" xml:space="preserve">
+    <value>SupplierActivate</value>
+  </data>
+  <data name="SupplierAdd" xml:space="preserve">
+    <value>SupplierAdd</value>
+  </data>
+  <data name="SupplierBranchAdd" xml:space="preserve">
+    <value>SupplierBranchAdd</value>
+  </data>
+  <data name="SupplierBranchDelete" xml:space="preserve">
+    <value>SupplierBranchDelete</value>
+  </data>
+  <data name="SupplierBranchSelectByID" xml:space="preserve">
+    <value>SupplierBranchSelectByID</value>
+  </data>
+  <data name="SupplierBranchSelectBySupplierID" xml:space="preserve">
+    <value>SupplierBranchSelectBySupplierID</value>
+  </data>
+  <data name="SupplierBranchUpdate" xml:space="preserve">
+    <value>SupplierBranchUpdate</value>
+  </data>
+  <data name="SupplierDeactivate" xml:space="preserve">
+    <value>SupplierDeactivate</value>
+  </data>
+  <data name="SupplierDelete" xml:space="preserve">
+    <value>SupplierDelete</value>
+  </data>
+  <data name="SupplierSelectAll" xml:space="preserve">
+    <value>SupplierSelectAll</value>
+  </data>
+  <data name="SupplierSelectByBranchID" xml:space="preserve">
+    <value>SupplierSelectByBranchID</value>
+  </data>
+  <data name="SupplierSelectByID" xml:space="preserve">
+    <value>SupplierSelectByID</value>
+  </data>
+  <data name="SupplierUpdate" xml:space="preserve">
+    <value>SupplierUpdate</value>
+  </data>
+</root>

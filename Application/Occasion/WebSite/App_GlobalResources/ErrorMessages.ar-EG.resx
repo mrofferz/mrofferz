@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>عفوا, قد يكون اسم المستخدم او كلمة المرور غير صحيحة</value>
+  </data>
+  <data name="ConfirmPWFalied" xml:space="preserve">
+    <value>كلمة المرور الجديدة يجب ان تتوافق مع تأكيد كلمة المرور</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>هذا البريد الالكتروني مسجل معنا بالفعل!</value>
+  </data>
+  <data name="DuplicateUserName" xml:space="preserve">
+    <value>عفوا, اسم المستخدم محجوز لمشترك اخر, برجاء ادخال اسم مستخدم جديد</value>
+  </data>
+  <data name="FileUploadingFailed" xml:space="preserve">
+    <value>لا يمكن تحميل هذا الملف الان, من فضلك حاول في وقت لاحق</value>
+  </data>
+  <data name="GeneralError" xml:space="preserve">
+    <value>نأسف لحدوث خطاء, برجاء المحاولة في وقت لاحق</value>
+  </data>
+  <data name="IncorrectAnswer" xml:space="preserve">
+    <value>عفوا اجابة خاطئة من فضلك حاول مرة اخرى</value>
+  </data>
+  <data name="incorrectPW" xml:space="preserve">
+    <value>يجب ان تتكون كلمة المرور الجديدة من 5 حروف على الاقل</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>برجاء ادخال عنوان بريد الكتروني صحيح!</value>
+  </data>
+  <data name="InvalidMobileNo" xml:space="preserve">
+    <value>عفوا, يجب ادخال رقم هاتف صحيح</value>
+  </data>
+  <data name="invalidURL" xml:space="preserve">
+    <value>من فضلك ادخل الرابط بصورة صحيحة</value>
+  </data>
+  <data name="MailSendingFailed" xml:space="preserve">
+    <value>لا يمكن ارسال البريد الالكتروني الان, برجاء المحاولة في وقت لاحق</value>
+  </data>
+  <data name="RecoredSavingFailed" xml:space="preserve">
+    <value>لا يمكن حفظ هذا الحقل الان, من فضلك حاول في وقت لاحق</value>
+  </data>
+  <data name="reqAnswer" xml:space="preserve">
+    <value>من فضلك ادخل الاجابة</value>
+  </data>
+  <data name="reqCategory" xml:space="preserve">
+    <value>من فضلك اختر الفئة</value>
+  </data>
+  <data name="reqComment" xml:space="preserve">
+    <value>من فضلك ادخل التعليق!</value>
+  </data>
+  <data name="reqConfirmPW" xml:space="preserve">
+    <value>من فضلك تأكيد كلمة المرور الجديدة</value>
+  </data>
+  <data name="reqDate" xml:space="preserve">
+    <value>من فضلك ادخل التاريخ</value>
+  </data>
+  <data name="reqDescription" xml:space="preserve">
+    <value>من فضلك ادخل وصف</value>
+  </data>
+  <data name="reqEmail" xml:space="preserve">
+    <value>من فضلك ادخل عنوان بريدك الاكتروني</value>
+  </data>
+  <data name="reqFile" xml:space="preserve">
+    <value>من فضلك اختر ملف لحفظه</value>
+  </data>
+  <data name="reqFullName" xml:space="preserve">
+    <value>من فضلك ادخل اسمك كاملا</value>
+  </data>
+  <data name="reqHour" xml:space="preserve">
+    <value>من فضلك اختر الساعة</value>
+  </data>
+  <data name="reqItemType" xml:space="preserve">
+    <value>من فضلك اختر النوع</value>
+  </data>
+  <data name="reqMinute" xml:space="preserve">
+    <value>من فضلك اختر الدقائق</value>
+  </data>
+  <data name="reqMobileNo" xml:space="preserve">
+    <value>من فضلك ادخل رقم الهاتف الجوال</value>
+  </data>
+  <data name="reqNameAr" xml:space="preserve">
+    <value>من فضلك ادخل الاسم باللغة العربية</value>
+  </data>
+  <data name="reqNameEn" xml:space="preserve">
+    <value>من فضلك ادخل الاسم باللغة الانجليزية</value>
+  </data>
+  <data name="reqNewPassword" xml:space="preserve">
+    <value>من فضلك ادخل كلمة المرور الجديدة</value>
+  </data>
+  <data name="reqPassword" xml:space="preserve">
+    <value>من فضلك ادخل كلمة المرور</value>
+  </data>
+  <data name="reqPicture" xml:space="preserve">
+    <value>من فضلك اختر صورة لحفظها</value>
+  </data>
+  <data name="reqPlace" xml:space="preserve">
+    <value>من فضلك ادخل المكان</value>
+  </data>
+  <data name="reqPrivacy" xml:space="preserve">
+    <value>من فضلك اختر الخصوصية</value>
+  </data>
+  <data name="reqPublishHouse" xml:space="preserve">
+    <value>من فضلك ادخل اسم دار النشر</value>
+  </data>
+  <data name="reqQuestion" xml:space="preserve">
+    <value>من فضلك ادخل السؤال</value>
+  </data>
+  <data name="reqStatus" xml:space="preserve">
+    <value>من فضلك اختر الحالة</value>
+  </data>
+  <data name="reqTitle" xml:space="preserve">
+    <value>من فضلك ادخل العنوان</value>
+  </data>
+  <data name="reqType" xml:space="preserve">
+    <value>من فضلك اختر النوع</value>
+  </data>
+  <data name="reqURL" xml:space="preserve">
+    <value>من فضلك ادخل الرابط</value>
+  </data>
+  <data name="reqUserName" xml:space="preserve">
+    <value>من فضلك ادخل اسم المستخدم</value>
+  </data>
+  <data name="cookieDisabled" xml:space="preserve">
+    <value>عفوا الكوكيز غير مفعلة على متصفح الانترنت من فضلك فعل الكوكيز</value>
+  </data>
+  <data name="cookieNotSupported" xml:space="preserve">
+    <value>عفوا متصفح الانترنت الخاص بك لا يدعم الكوكيز</value>
+  </data>
+  <data name="reqContactPerson" xml:space="preserve">
+    <value>من فضلك ادخل اسم مسؤل الاتصال</value>
+  </data>
+  <data name="reqAddressAr" xml:space="preserve">
+    <value>من فضلك ادخل العنوان بالعربية</value>
+  </data>
+  <data name="reqAddressEn" xml:space="preserve">
+    <value>من فضلك ادخل العنوان بالانجليزية</value>
+  </data>
+  <data name="reqLocation" xml:space="preserve">
+    <value>من فضلك اختر المنطقة</value>
+  </data>
+  <data name="reqEndDate" xml:space="preserve">
+    <value>من فضلك ادخل تاريخ النهاية</value>
+  </data>
+  <data name="reqShortDescriptionAr" xml:space="preserve">
+    <value>من فضلك ادخل الوصف القصير بالعربية</value>
+  </data>
+  <data name="reqShortDescriptionEn" xml:space="preserve">
+    <value>من فضلك ادخل الوصف القصير بالانجليزية</value>
+  </data>
+  <data name="reqStartDate" xml:space="preserve">
+    <value>من فضلك ادخل تاريخ البداية</value>
+  </data>
+  <data name="rvShortDescription" xml:space="preserve">
+    <value>فقط 200 حرف هو المسموح للوصف القصير</value>
+  </data>
+  <data name="reqUnitAr" xml:space="preserve">
+    <value>من فضلك ادخل العملة بالعربية</value>
+  </data>
+  <data name="reqUnitEn" xml:space="preserve">
+    <value>من فضلك ادخل العملة بالانجليزية</value>
+  </data>
+  <data name="reqModelAr" xml:space="preserve">
+    <value>من فضلك ادخل الموديل بالعربية</value>
+  </data>
+  <data name="reqModelEn" xml:space="preserve">
+    <value>من فضلك ادخل الموديل بالانجليزية</value>
+  </data>
+  <data name="reqTitleAr" xml:space="preserve">
+    <value>من فضلك ادخل العنوان بالعربية</value>
+  </data>
+  <data name="reqTitleEn" xml:space="preserve">
+    <value>من فضلك ادخل العنوان بالانجليزية</value>
+  </data>
+  <data name="reqSaleUpTo" xml:space="preserve">
+    <value>من فضلك ادخل نسبة التخفيض</value>
+  </data>
+  <data name="reqDiscount" xml:space="preserve">
+    <value>من فضلك ادخل نسبة الخصم</value>
+  </data>
+  <data name="reqNewPrice" xml:space="preserve">
+    <value>من فضلك ادخل السعر الجديد</value>
+  </data>
+  <data name="reqOldPrice" xml:space="preserve">
+    <value>من فضلك ادخل السعر القديم</value>
+  </data>
+  <data name="reqSupplier" xml:space="preserve">
+    <value>من فضلك اختر العارض</value>
+  </data>
+  <data name="cvBestDeal" xml:space="preserve">
+    <value>فقط 3 عروض يمكن ان تكون صفقة مميزة</value>
+  </data>
+  <data name="cvFeaturedOffer" xml:space="preserve">
+    <value>فقط 4 عروض يمكن ان تكون عرض مميز</value>
+  </data>
+  <data name="reqPackageDesccriptionAr" xml:space="preserve">
+    <value>Please insert the Package Description in Arabic</value>
+  </data>
+  <data name="reqPackageDesccriptionEn" xml:space="preserve">
+    <value>Please insert the Package Description in English</value>
+  </data>
+  <data name="reqDifferentSearch" xml:space="preserve">
+    <value>Please try a different search.</value>
+  </data>
+</root>

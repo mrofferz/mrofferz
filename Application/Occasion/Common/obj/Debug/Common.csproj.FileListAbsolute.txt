@@ -1,0 +1,7 @@
+C:\Projects\Occasion\Application\Occasion\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Occasion\Application\Occasion\Common\obj\Debug\Common.dll
+C:\Projects\Occasion\Application\Occasion\Common\obj\Debug\Common.pdb
+C:\Projects\Occasion\Application\Occasion\Common\bin\Debug\Common.dll
+C:\Projects\Occasion\Application\Occasion\Common\bin\Debug\Common.pdb
+C:\Projects\Occasion\Application\Occasion\Common\bin\Debug\EntityLayer.dll
+C:\Projects\Occasion\Application\Occasion\Common\bin\Debug\EntityLayer.pdb

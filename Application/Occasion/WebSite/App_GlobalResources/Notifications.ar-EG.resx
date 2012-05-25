@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountActivated" xml:space="preserve">
+    <value>لقد تم تفعيل اشتراكك بنجاح, يمكنك الان الدخول الى الاماكن الخاصة بالأعضاء</value>
+  </data>
+  <data name="AccountActivationFailure" xml:space="preserve">
+    <value>عفوا لا نستطيع تفعيل اشتراكك الان, من فضلك حاول في وقت لاحق, برجاء مخاطبتنا اذا استمر هذا الخطاء</value>
+  </data>
+  <data name="BookAdded" xml:space="preserve">
+    <value>تم اضافة الكتاب بنجاح</value>
+  </data>
+  <data name="CantInsertArticle" xml:space="preserve">
+    <value>عفوا, لا تستطيع ادخال اكثر من مقالتين خلال 30 يوما</value>
+  </data>
+  <data name="ChangePWFailed" xml:space="preserve">
+    <value>عفوا لم يتم تعديل كلمة المرور من فضلك حاول في وقت لاحق</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>تم حذف الحقل !</value>
+  </data>
+  <data name="ConfirmInsert" xml:space="preserve">
+    <value>تم اضافة الحقل الجديد بنجاح</value>
+  </data>
+  <data name="ConfirmUpdate" xml:space="preserve">
+    <value>تم تعديل الحقل بنجاح</value>
+  </data>
+  <data name="CreateUserSucceeded" xml:space="preserve">
+    <value>تم تسجيل اشتراكك بنجاح, برجاء التحقق من بريدك الالكتروني لتفعيل الاشتراك, شكرا لتسجيلك مع فانتاكا</value>
+  </data>
+  <data name="EmptyDataMessage" xml:space="preserve">
+    <value>عفوا لا يوجد بيانات حاليا</value>
+  </data>
+  <data name="GeneralMessage" xml:space="preserve">
+    <value>تم العمل بنجاح</value>
+  </data>
+  <data name="NewsletterSubscribeMessage" xml:space="preserve">
+    <value>لاستلام احدث اخبار هذه الرياضة في البلد المختارة على بريدك الالكتروني, اختر اللغة التي تفضلها ثم  اضغط "اشترك"</value>
+  </data>
+  <data name="NewsletterUserHasSubscribed" xml:space="preserve">
+    <value>لقد اشتركت مسبقا في هذه الخدمة للرياضة والبلد الحاليين, للاشتراك لبلد و/او رياضة اخرى من فضلك تغيير البلد و/او الرياضة والمحاولة مرة اخرى</value>
+  </data>
+  <data name="NoActivePolls" xml:space="preserve">
+    <value>عفوا, لكن لا يوجد استطلاعات رأى مفعلة حاليا</value>
+  </data>
+  <data name="PollLogin" xml:space="preserve">
+    <value>من فضلك قم بتسجيل الدخول اولا لتستطيع التصويت !</value>
+  </data>
+  <data name="PreConfirmActivate" xml:space="preserve">
+    <value>هل ترغب فعلا في تفعيل هذا المحتوى؟</value>
+  </data>
+  <data name="PreConfirmApprove" xml:space="preserve">
+    <value>هل ترغب فعلا في نشر هذا المحتوى؟</value>
+  </data>
+  <data name="PreConfirmBlocking" xml:space="preserve">
+    <value>هل ترغب فعلا في وقف اشتراك هذا المشترك؟</value>
+  </data>
+  <data name="PreConfirmDeactivate" xml:space="preserve">
+    <value>هل ترغب فعلا في الغاء تفعيل هذا المحتوى؟</value>
+  </data>
+  <data name="PreConfirmDelete" xml:space="preserve">
+    <value>هل ترغب فعلا في حذف هذا الحقل؟</value>
+  </data>
+  <data name="PreConfirmReject" xml:space="preserve">
+    <value>هل ترغب فعلا في رفض هذا المحتوى؟</value>
+  </data>
+  <data name="PreConfirmSettingCurrent" xml:space="preserve">
+    <value>هل ترغب فعلا في نشر هذا المحتوى؟</value>
+  </data>
+  <data name="PWChanged" xml:space="preserve">
+    <value>تم تغيير كلمة المرور</value>
+  </data>
+  <data name="PWRecovered" xml:space="preserve">
+    <value>تم اعادة تعيين كلمة المرور الخاصة بك و ارسالها الى بريدك الالكتروني </value>
+  </data>
+  <data name="PWRecoveryFailed" xml:space="preserve">
+    <value>عفوا لحدوث خطاء برجاء المحاولة في وقت لاحق</value>
+  </data>
+  <data name="RefreshRssNews" xml:space="preserve">
+    <value>الاخبار المستمدة من خدمة ال RSS يتم تحديثها اليا يوميا , اذا كنت ترغب في تحديث هذه الاخبار يدويا من فضلك اضغط على "تحديث"</value>
+  </data>
+  <data name="RequireLogin" xml:space="preserve">
+    <value>عفوا هذه الصفحة للاعضاء فقط لذا يجب تسجيل الدخول قبل عرض هذه الصفحة, اذا لم تكن عضوا و ترغب في الاشتراك من فضللك </value>
+  </data>
+  <data name="requireLoginToComment" xml:space="preserve">
+    <value>من فضلك قم بتسجيل الدخول لتستطيع اضافة تعليق !</value>
+  </data>
+  <data name="RssNewsRefreshed" xml:space="preserve">
+    <value>تم تحديث الاخبار المستمدة من خدمة ال RSS بنجاح</value>
+  </data>
+  <data name="SettedCurrent" xml:space="preserve">
+    <value>تم تفعيل الحقل بنجاح</value>
+  </data>
+  <data name="SubscribedSuccessfully" xml:space="preserve">
+    <value>لقد تم تسجيل اشتراكك بنجاح</value>
+  </data>
+  <data name="SurveyLogin" xml:space="preserve">
+    <value>من فضلك قم بتسجيل الدخول اولا لتستطيع التصويت !</value>
+  </data>
+  <data name="surveyNoAnswers" xml:space="preserve">
+    <value>هذا السؤال ليس له اجابات بعد</value>
+  </data>
+  <data name="TopNewsMin" xml:space="preserve">
+    <value>سيقوم النظام بوضع احدث 4 اخبار لتكون الاخبار الهامة !</value>
+  </data>
+  <data name="UserBlocked" xml:space="preserve">
+    <value>تم وقف اشتراك هذا المستخدم</value>
+  </data>
+</root>

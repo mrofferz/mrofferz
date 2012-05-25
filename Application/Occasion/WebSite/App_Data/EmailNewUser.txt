@@ -1,0 +1,28 @@
+
+Dear <%FullName%>;
+
+Thank you for subscribing with Fantaka
+
+Your registered account info is as follows:
+
+User Name: <%UserName%>
+
+Password: <%Password%>
+
+Secret Question: <%Question%>
+
+Answer to secret question: <%Answer%>
+
+Please click here www.Fantaka.com/ActivateUser.aspx?UN=<%ActivationUN%> to activate your account.
+If the URL doesn't work please copy and paste it into your browser address bar.
+
+Please note that you can not login until you activate your account.
+
+For further information please don't hesitate to contact us at <%AdminEmail%>.
+
+Thank you for subscribing with Fantaka
+
+Best Regards
+Fantaka Team
+
+Please don't reply to this e-mail as it's auto-generated mail.

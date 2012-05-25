@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Sorry, the user name or password is incorrect</value>
+  </data>
+  <data name="ConfirmPWFalied" xml:space="preserve">
+    <value>The new passowrd must match confirm new password !</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>This e-mail address is already registered with us !</value>
+  </data>
+  <data name="DuplicateUserName" xml:space="preserve">
+    <value>Sorry, the entered User Name is used by another user, Please enter a new User Name.</value>
+  </data>
+  <data name="FileUploadingFailed" xml:space="preserve">
+    <value>The system can not upload the file at this moment, please try again later</value>
+  </data>
+  <data name="GeneralError" xml:space="preserve">
+    <value>Sorry, an error has occured, please try again later</value>
+  </data>
+  <data name="IncorrectAnswer" xml:space="preserve">
+    <value>Sorry, the answer is incorrect please try again</value>
+  </data>
+  <data name="incorrectPW" xml:space="preserve">
+    <value>Your password must be at least 5 characters long</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Please insert a valid e-mail address</value>
+  </data>
+  <data name="InvalidMobileNo" xml:space="preserve">
+    <value>Please insert a valid mobile number format.</value>
+  </data>
+  <data name="invalidURL" xml:space="preserve">
+    <value>Please insert a correct URL</value>
+  </data>
+  <data name="MailSendingFailed" xml:space="preserve">
+    <value>The system can not send the email at this moment, please try again later</value>
+  </data>
+  <data name="RecoredSavingFailed" xml:space="preserve">
+    <value>The system can not save this record at this moment, please try again later</value>
+  </data>
+  <data name="reqAlbum" xml:space="preserve">
+    <value>Please select an album!</value>
+  </data>
+  <data name="reqAmPm" xml:space="preserve">
+    <value>Please select AM or PM</value>
+  </data>
+  <data name="reqAnswer" xml:space="preserve">
+    <value>Please insert the answer</value>
+  </data>
+  <data name="reqAuthor" xml:space="preserve">
+    <value>Please insert the author name</value>
+  </data>
+  <data name="reqBanner" xml:space="preserve">
+    <value>Please enter the banner news description</value>
+  </data>
+  <data name="reqBrief" xml:space="preserve">
+    <value>Please insert a brief description</value>
+  </data>
+  <data name="reqCategory" xml:space="preserve">
+    <value>Please select a category</value>
+  </data>
+  <data name="reqComment" xml:space="preserve">
+    <value>Please insert the comment !</value>
+  </data>
+  <data name="reqConfirmPW" xml:space="preserve">
+    <value>Please confirm the new password</value>
+  </data>
+  <data name="reqCountry" xml:space="preserve">
+    <value>Please select at least one country</value>
+  </data>
+  <data name="reqCountryCode" xml:space="preserve">
+    <value>Please insert the country code</value>
+  </data>
+  <data name="reqDate" xml:space="preserve">
+    <value>Please insert the date</value>
+  </data>
+  <data name="reqDescription" xml:space="preserve">
+    <value>Please insert a description</value>
+  </data>
+  <data name="reqEmail" xml:space="preserve">
+    <value>Please insert your E-mail Address</value>
+  </data>
+  <data name="reqFile" xml:space="preserve">
+    <value>Please select a file to upload</value>
+  </data>
+  <data name="reqFullName" xml:space="preserve">
+    <value>Please insert your full name</value>
+  </data>
+  <data name="reqHour" xml:space="preserve">
+    <value>Please select Hour</value>
+  </data>
+  <data name="reqItemType" xml:space="preserve">
+    <value>Please select the item type</value>
+  </data>
+  <data name="reqMinute" xml:space="preserve">
+    <value>Please select Minutes</value>
+  </data>
+  <data name="reqMobileNo" xml:space="preserve">
+    <value>Please insert your mobile number</value>
+  </data>
+  <data name="reqNameAr" xml:space="preserve">
+    <value>Please insert the name in arabic</value>
+  </data>
+  <data name="reqNameEn" xml:space="preserve">
+    <value>Please insert the name in english</value>
+  </data>
+  <data name="reqNationality" xml:space="preserve">
+    <value>Please select your nationality</value>
+  </data>
+  <data name="reqNewPassword" xml:space="preserve">
+    <value>Please insert the new password</value>
+  </data>
+  <data name="reqPassword" xml:space="preserve">
+    <value>Please insert the password</value>
+  </data>
+  <data name="reqPicture" xml:space="preserve">
+    <value>Please select a picture</value>
+  </data>
+  <data name="reqPlace" xml:space="preserve">
+    <value>Please insert the place</value>
+  </data>
+  <data name="reqPrivacy" xml:space="preserve">
+    <value>Please select the privacy</value>
+  </data>
+  <data name="reqPublishHouse" xml:space="preserve">
+    <value>Please insert the publish house name</value>
+  </data>
+  <data name="reqQuestion" xml:space="preserve">
+    <value>Please insert the question</value>
+  </data>
+  <data name="reqSport" xml:space="preserve">
+    <value>Please select a Sport</value>
+  </data>
+  <data name="reqStatus" xml:space="preserve">
+    <value>Please select the status</value>
+  </data>
+  <data name="reqSubject" xml:space="preserve">
+    <value>Please insert the subject</value>
+  </data>
+  <data name="reqTime" xml:space="preserve">
+    <value>Please insert the time</value>
+  </data>
+  <data name="reqTimeZone" xml:space="preserve">
+    <value>Please select the Time Zone</value>
+  </data>
+  <data name="reqTitle" xml:space="preserve">
+    <value>Please insert the title</value>
+  </data>
+  <data name="reqType" xml:space="preserve">
+    <value>Please select a type</value>
+  </data>
+  <data name="reqURL" xml:space="preserve">
+    <value>Please insert the URL</value>
+  </data>
+  <data name="reqUserName" xml:space="preserve">
+    <value>Please insert the user name</value>
+  </data>
+  <data name="reqVideo" xml:space="preserve">
+    <value>Please select a video to upload, only flv video format is allowed</value>
+  </data>
+  <data name="TopNewsMax" xml:space="preserve">
+    <value>Please select only 4 or less news to be setled as Top News</value>
+  </data>
+  <data name="cookieDisabled" xml:space="preserve">
+    <value>You are disabling Cookies on your internet browser, Please Enable Cookies</value>
+  </data>
+  <data name="cookieNotSupported" xml:space="preserve">
+    <value>Your internet browser does not support cookies, Please try another browser</value>
+  </data>
+  <data name="reqContactPerson" xml:space="preserve">
+    <value>Please insert the contact person</value>
+  </data>
+  <data name="reqAddressAr" xml:space="preserve">
+    <value>Please insert the Address in Arabic</value>
+  </data>
+  <data name="reqAddressEn" xml:space="preserve">
+    <value>Please insert the Address in English</value>
+  </data>
+  <data name="reqLocation" xml:space="preserve">
+    <value>Please select the District</value>
+  </data>
+  <data name="reqEndDate" xml:space="preserve">
+    <value>Please insert the End Date</value>
+  </data>
+  <data name="reqShortDescriptionAr" xml:space="preserve">
+    <value>Please insert the Short Description in Arabic</value>
+  </data>
+  <data name="reqShortDescriptionEn" xml:space="preserve">
+    <value>Please insert the Short Description in English</value>
+  </data>
+  <data name="reqStartDate" xml:space="preserve">
+    <value>Please insert the Start Date</value>
+  </data>
+  <data name="rvShortDescription" xml:space="preserve">
+    <value>Only 200 characters is allowed for Short Description</value>
+  </data>
+  <data name="reqUnitAr" xml:space="preserve">
+    <value>Please insert the Unit in Arabic</value>
+  </data>
+  <data name="reqUnitEn" xml:space="preserve">
+    <value>Please insert the Unit in English</value>
+  </data>
+  <data name="reqModelAr" xml:space="preserve">
+    <value>Please insert the Model in Arabic</value>
+  </data>
+  <data name="reqModelEn" xml:space="preserve">
+    <value>Please insert the Model in English</value>
+  </data>
+  <data name="reqTitleAr" xml:space="preserve">
+    <value>Please insert Title in Arabic</value>
+  </data>
+  <data name="reqTitleEn" xml:space="preserve">
+    <value>Please insert Title in English</value>
+  </data>
+  <data name="reqSaleUpTo" xml:space="preserve">
+    <value>Please insert the Sale Percentage</value>
+  </data>
+  <data name="reqDiscount" xml:space="preserve">
+    <value>Please insert the product discount percentage</value>
+  </data>
+  <data name="reqNewPrice" xml:space="preserve">
+    <value>Please insert the product new price</value>
+  </data>
+  <data name="reqOldPrice" xml:space="preserve">
+    <value>Please insert the product old price</value>
+  </data>
+  <data name="reqSupplier" xml:space="preserve">
+    <value>Please select a Supplier</value>
+  </data>
+  <data name="cvBestDeal" xml:space="preserve">
+    <value>Only 3 offers can be set as Best Deals</value>
+  </data>
+  <data name="cvFeaturedOffer" xml:space="preserve">
+    <value>Only 4 offers can be set as Featured Offers</value>
+  </data>
+  <data name="reqPackageDesccriptionAr" xml:space="preserve">
+    <value>Please insert the Package Description in Arabic</value>
+  </data>
+  <data name="reqPackageDesccriptionEn" xml:space="preserve">
+    <value>Please insert the Package Description in English</value>
+  </data>
+  <data name="reqDifferentSearch" xml:space="preserve">
+    <value>Please try a different search.</value>
+  </data>
+</root>

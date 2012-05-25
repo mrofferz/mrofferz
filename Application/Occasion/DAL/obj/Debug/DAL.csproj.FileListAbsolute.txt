@@ -1,0 +1,15 @@
+C:\Projects\Occasion\Application\Occasion\DAL\bin\Debug\DAL.dll.config
+C:\Projects\Occasion\Application\Occasion\DAL\bin\Debug\DAL.dll
+C:\Projects\Occasion\Application\Occasion\DAL\bin\Debug\DAL.pdb
+C:\Projects\Occasion\Application\Occasion\DAL\bin\Debug\Common.dll
+C:\Projects\Occasion\Application\Occasion\DAL\bin\Debug\EntityLayer.dll
+C:\Projects\Occasion\Application\Occasion\DAL\bin\Debug\FlvConverter.dll
+C:\Projects\Occasion\Application\Occasion\DAL\bin\Debug\EntityLayer.pdb
+C:\Projects\Occasion\Application\Occasion\DAL\bin\Debug\Common.pdb
+C:\Projects\Occasion\Application\Occasion\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Occasion\Application\Occasion\DAL\obj\Debug\DAL.Properties.Resources.resources
+C:\Projects\Occasion\Application\Occasion\DAL\obj\Debug\DAL.Resources.ErrorMessages.resources
+C:\Projects\Occasion\Application\Occasion\DAL\obj\Debug\DAL.Resources.ProceduresNames.resources
+C:\Projects\Occasion\Application\Occasion\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Projects\Occasion\Application\Occasion\DAL\obj\Debug\DAL.dll
+C:\Projects\Occasion\Application\Occasion\DAL\obj\Debug\DAL.pdb

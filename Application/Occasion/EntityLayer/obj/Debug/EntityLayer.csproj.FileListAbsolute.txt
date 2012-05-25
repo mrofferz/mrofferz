@@ -1,0 +1,7 @@
+C:\Projects\Occasion\Application\Occasion\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Projects\Occasion\Application\Occasion\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Projects\Occasion\Application\Occasion\EntityLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Occasion\Application\Occasion\EntityLayer\obj\Debug\EntityLayer.Columns.resources
+C:\Projects\Occasion\Application\Occasion\EntityLayer\obj\Debug\EntityLayer.csproj.GenerateResource.Cache
+C:\Projects\Occasion\Application\Occasion\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Projects\Occasion\Application\Occasion\EntityLayer\obj\Debug\EntityLayer.pdb

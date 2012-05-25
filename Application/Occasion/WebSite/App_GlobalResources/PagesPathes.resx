@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContactUs" xml:space="preserve">
+    <value>~/AdminModules/ContactUsAdd.aspx</value>
+  </data>
+  <data name="AdminDefault" xml:space="preserve">
+    <value>~/AdminModules/Default.aspx</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>~/ChangePassword.aspx</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>~/CommonPages/Confirm.aspx</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>~/CommonPages/ConfirmDelete.aspx</value>
+  </data>
+  <data name="ConfirmInsert" xml:space="preserve">
+    <value>~/CommonPages/ConfirmInsert.aspx</value>
+  </data>
+  <data name="ConfirmUpdate" xml:space="preserve">
+    <value>~/CommonPages/ConfirmUpdate.aspx</value>
+  </data>
+  <data name="CreateUser" xml:space="preserve">
+    <value>~/CreatUser.aspx</value>
+  </data>
+  <data name="EditProfile" xml:space="preserve">
+    <value>~/EditProfile.aspx</value>
+  </data>
+  <data name="ErrorPage" xml:space="preserve">
+    <value>~/CommonPages/ErrorPage.aspx</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>~/ForgotPassword.aspx</value>
+  </data>
+  <data name="ListContactUs" xml:space="preserve">
+    <value>~/AdminModules/ContactUsList.aspx</value>
+  </data>
+  <data name="PollAdd" xml:space="preserve">
+    <value>~/AdminModules/PollAdd.aspx</value>
+  </data>
+  <data name="PollList" xml:space="preserve">
+    <value>~/AdminModules/PollList.aspx</value>
+  </data>
+  <data name="PollViewResults" xml:space="preserve">
+    <value>~/AdminModules/PollViewResults.aspx</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>~/Register.aspx</value>
+  </data>
+  <data name="RequireLogin" xml:space="preserve">
+    <value>~/CommonPages/RequireLogin.aspx</value>
+  </data>
+  <data name="SurveyAdd" xml:space="preserve">
+    <value>~/AdminModules/SurveyAdd.aspx</value>
+  </data>
+  <data name="SurveyList" xml:space="preserve">
+    <value>~/AdminModules/SurveyList.aspx</value>
+  </data>
+  <data name="UpdateContactUs" xml:space="preserve">
+    <value>~/AdminModules/ContactUs.aspx</value>
+  </data>
+  <data name="ViewContactUs" xml:space="preserve">
+    <value>~/ContactUs.aspx</value>
+  </data>
+  <data name="ViewDefault" xml:space="preserve">
+    <value>~/Default.aspx</value>
+  </data>
+  <data name="BranchesList" xml:space="preserve">
+    <value>~/BranchesList.aspx</value>
+  </data>
+  <data name="BrandsList" xml:space="preserve">
+    <value>~/BrandsList.aspx</value>
+  </data>
+  <data name="CategoriesList" xml:space="preserve">
+    <value>~/CategoriesList.aspx</value>
+  </data>
+  <data name="SuppliersList" xml:space="preserve">
+    <value>~/SuppliersList.aspx</value>
+  </data>
+  <data name="ListSuppliers" xml:space="preserve">
+    <value>~/AdminModules/SuppliersList.aspx</value>
+  </data>
+  <data name="SupplierAdd" xml:space="preserve">
+    <value>~/AdminModules/SupplierAdd.aspx</value>
+  </data>
+  <data name="SupplierDetails" xml:space="preserve">
+    <value>~/AdminModules/SupplierDetails.aspx</value>
+  </data>
+  <data name="ListLocations" xml:space="preserve">
+    <value>~/AdminModules/LocationsList.aspx</value>
+  </data>
+  <data name="LocationAdd" xml:space="preserve">
+    <value>~/AdminModules/LocationAdd.aspx</value>
+  </data>
+  <data name="AddBranch" xml:space="preserve">
+    <value>~/AdminModules/BranchAdd.aspx</value>
+  </data>
+  <data name="ListBranches" xml:space="preserve">
+    <value>~/AdminModules/BranchesList.aspx</value>
+  </data>
+  <data name="BranchDetails" xml:space="preserve">
+    <value>~/AdminModules/BranchDetails.aspx</value>
+  </data>
+  <data name="ListBrands" xml:space="preserve">
+    <value>~/AdminModules/BrandsList.aspx</value>
+  </data>
+  <data name="AddBrand" xml:space="preserve">
+    <value>~/AdminModules/BrandAdd.aspx</value>
+  </data>
+  <data name="BrandDetails" xml:space="preserve">
+    <value>~/AdminModules/BrandDetails.aspx</value>
+  </data>
+  <data name="CategoryManagement" xml:space="preserve">
+    <value>~/AdminModules/CategoryManagement.aspx</value>
+  </data>
+  <data name="FairDetails" xml:space="preserve">
+    <value>~/FairDetails.aspx</value>
+  </data>
+  <data name="FairsList" xml:space="preserve">
+    <value>~/FairsList.aspx</value>
+  </data>
+  <data name="FairAdd" xml:space="preserve">
+    <value>~/AdminModules/FairAdd.aspx</value>
+  </data>
+  <data name="ListFairs" xml:space="preserve">
+    <value>~/AdminModules/FairsList.aspx</value>
+  </data>
+  <data name="ViewFairDetails" xml:space="preserve">
+    <value>~/AdminModules/FairDetails.aspx</value>
+  </data>
+  <data name="CurrencyAdd" xml:space="preserve">
+    <value>~/AdminModules/CurrencyAdd.aspx</value>
+  </data>
+  <data name="CurrencyList" xml:space="preserve">
+    <value>~/AdminModules/CurrencyList.aspx</value>
+  </data>
+  <data name="OfferDetails" xml:space="preserve">
+    <value>~/OfferDetails.aspx</value>
+  </data>
+  <data name="OffersList" xml:space="preserve">
+    <value>~/OffersList.aspx</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>~/SearchResult.aspx</value>
+  </data>
+  <data name="ListOffers" xml:space="preserve">
+    <value>~/AdminModules/OffersList.aspx</value>
+  </data>
+  <data name="OfferAdd" xml:space="preserve">
+    <value>~/AdminModules/OfferAdd.aspx</value>
+  </data>
+  <data name="ViewOfferDetails" xml:space="preserve">
+    <value>~/AdminModules/OfferDetails.aspx</value>
+  </data>
+  <data name="ViewSupplierDetails" xml:space="preserve">
+    <value>~/SupplierDetails.aspx</value>
+  </data>
+  <data name="ViewBrandDetails" xml:space="preserve">
+    <value>~/BrandDetails.aspx</value>
+  </data>
+</root>

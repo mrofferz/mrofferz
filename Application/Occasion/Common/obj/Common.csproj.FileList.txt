@@ -1,0 +1,16 @@
+bin\Debug\Common.dll
+bin\Debug\Common.pdb
+bin\Debug\EntityLayer.dll
+bin\Debug\EntityLayer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Common.dll
+obj\Debug\Common.pdb
+bin\Release\Common.dll
+bin\Release\Common.pdb
+bin\Release\EntityLayer.dll
+bin\Release\EntityLayer.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Common.dll
+obj\Release\Common.pdb
+bin\Debug\FlvConverter.dll
+bin\Debug\FlvConverter.pdb

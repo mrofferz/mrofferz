@@ -1,0 +1,10 @@
+bin\Debug\SqlSplitList.dll
+bin\Debug\SqlSplitList.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SqlSplitList.dll
+obj\Debug\SqlSplitList.pdb
+bin\Release\SqlSplitList.dll
+bin\Release\SqlSplitList.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\SqlSplitList.dll
+obj\Release\SqlSplitList.pdb
